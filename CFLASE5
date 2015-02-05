@@ -1,0 +1,7 @@
+DECLARE 
+VALOR INTEGER;
+BEGIN
+guardar_dance(VALOR, 'OMAR');
+dbms_output.put_line('SE INSERTO CON EXITO'||VALOR);
+END;
+/
